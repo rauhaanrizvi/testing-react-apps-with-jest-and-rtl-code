@@ -41,6 +41,7 @@ module.exports = {
   devtool: "inline-source-map",
   devServer: {
     contentBase: path.join(__dirname, "build"),
+    host: '0.0.0.0',
     port: 4000,
     open: true,
   },
